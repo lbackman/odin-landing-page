@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #fafbfa;
+}
+
+.hero-footer .container {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.container.quote {
+    background-color: #e5e7eb;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.box p,
+.nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.navbar .logo {
+    font-size: 24px;
+}
+
+.action-box,
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
