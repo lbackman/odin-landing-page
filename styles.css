@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: red dashed 1px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .container {
@@ -15,6 +17,7 @@ body {
 .hero-footer .container {
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
 }
 
 .container.quote {
@@ -39,6 +42,16 @@ body {
     text-decoration: none;
 }
 
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.nav li {
+    margin-right: 30px;
+}
+
 .navbar .logo {
     font-size: 24px;
 }
@@ -47,4 +60,17 @@ body {
 .sign-up {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.navbar .container {
+    justify-content: space-between;
+}
+
+.header-pic {
+    height: 100%;
+    max-width: 500px;
+}
+
+.container .box {
+    flex: 1;
 }
