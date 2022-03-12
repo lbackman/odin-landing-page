@@ -7,17 +7,30 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .container {
-    background-color: #fafbfa;
+    /*background-color: #fafbfa;*/
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.hero-footer {
+    background-color: #1f2937;
 }
 
 .hero-footer .container {
-    background-color: #1f2937;
+    /*background-color: #1f2937;*/
     color: #f9faf8;
     display: flex;
+    justify-content: space-between;
+}
+.hero-footer .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container.quote {
@@ -69,8 +82,10 @@ body {
 .header-pic {
     height: 100%;
     max-width: 500px;
+    object-fit: fill;
+    flex: 1 1 auto;
 }
 
 .container .box {
-    flex: 1;
+    flex: 0 1 500px;
 }
