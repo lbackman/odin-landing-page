@@ -17,6 +17,10 @@ body {
     justify-content: center;
 }
 
+.container .box {
+    gap: 8px;
+}
+
 .hero-footer {
     background-color: #1f2937;
 }
@@ -58,7 +62,6 @@ body {
 .navbar ul {
     list-style-type: none;
     display: flex;
-    
 }
 
 .nav li {
@@ -132,7 +135,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
+    /*margin: 50px 0px;*/
 }
 
 .action-box,
@@ -157,4 +160,19 @@ figcaption {
 
 .action-right {
     margin-left: 32px;
+}
+
+footer.hero-footer .container {
+    justify-content: center;
+    align-items: center;
+}
+
+button.sign-up {
+    height: 32px;
+    width: 72px;
+    border-radius: 8px;
+}
+
+.action-right .sign-up {
+    border: solid #f9faf8 2px;
 }
