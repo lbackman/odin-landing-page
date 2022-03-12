@@ -140,7 +140,7 @@ figcaption {
     min-height: 200px;
     justify-content: center;
     align-items: center;
-    /*margin: 50px 0px;*/
+    margin: auto;
 }
 
 .action-box,
