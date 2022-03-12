@@ -38,8 +38,8 @@ body {
 }
 
 .quote blockquote {
-    font-size: 36px;
-    font-weight: lighter;
+    font-size: 26px;
+    font-weight: 100;
     font-style: italic;
 }
 
@@ -94,9 +94,28 @@ img.box-pic {
     width: 224px;
     height: 224px;
     object-fit: cover;
+    border-radius: 8%;
+    border: solid #3882f6 4px;
 }
 
 .boxes .container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.image-box p {
+    max-width: 224px;
+    text-align: center;
+}
+
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.quote figure {
+    margin: 100px 20px;
+    max-width: 800px;
 }
