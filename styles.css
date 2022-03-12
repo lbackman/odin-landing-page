@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: red dashed 1px;
 }
 
 body {
@@ -10,11 +9,11 @@ body {
 }
 
 .container {
-    /*background-color: #fafbfa;*/
-    max-width: 1150px;
-    margin: 20px auto;
-    padding: 0 30px;
+    display: flex;
+    max-width: 1100px;
+    padding: 20px 30px;
     justify-content: center;
+    margin: auto;
 }
 
 .container .box {
@@ -31,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .hero-footer .box {
     display: flex;
     flex-direction: column;
@@ -64,6 +64,10 @@ body {
     display: flex;
 }
 
+.navbar a:hover {
+    color: lightblue;
+}
+
 .nav li {
     margin-right: 30px;
 }
@@ -93,14 +97,6 @@ body {
     flex: 0 1 500px;
 }
 
-/*.boxes .container {
-    justify-content: flex-start;
-}*/
-
-.container .image-box {
-    margin-right: 20px;
-}
-
 img.box-pic {
     width: 224px;
     height: 224px;
@@ -112,6 +108,11 @@ img.box-pic {
 .boxes .container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.image-box {
+    margin-bottom: 12px;
+    margin-right: 12px;
 }
 
 .image-box p {
@@ -175,4 +176,8 @@ button.sign-up {
 
 .action-right .sign-up {
     border: solid #f9faf8 2px;
+}
+
+button.sign-up:hover {
+    background-color: #456cbe;
 }
