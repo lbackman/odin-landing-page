@@ -12,7 +12,7 @@ body {
 .container {
     /*background-color: #fafbfa;*/
     max-width: 1150px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0 30px;
     justify-content: center;
 }
@@ -88,6 +88,14 @@ body {
 
 .container .box {
     flex: 0 1 500px;
+}
+
+/*.boxes .container {
+    justify-content: flex-start;
+}*/
+
+.container .image-box {
+    margin-right: 20px;
 }
 
 img.box-pic {
