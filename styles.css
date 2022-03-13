@@ -114,8 +114,7 @@ img.box-pic {
 }
 
 .image-box {
-    margin-bottom: 12px;
-    margin-right: 12px;
+    margin: 0 24px 24px 24px;
 }
 
 .image-box p {
