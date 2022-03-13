@@ -186,6 +186,10 @@ button.sign-up:hover {
     background-color: #456cbe;
 }
 
+button.sign-up:active {
+    background-color:rebeccapurple;
+}
+
 .footer.hero-footer {
     margin-top: auto;
 }
